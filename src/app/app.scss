@@ -1,0 +1,19 @@
+.content-text {
+	padding: 2rem;
+	background-color: #efefef;
+	text-align: center;
+	p {
+		font-size: 2rem;
+	}
+}
+
+.content-img {
+	padding: 2rem;
+	background-color: #efefef;
+	text-align: center;
+	img {
+		width: 50%;
+		aspect-ratio: 21 / 9;
+		object-fit: contain;
+	}
+}

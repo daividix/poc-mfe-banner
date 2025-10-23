@@ -1,0 +1,19 @@
+<div class="main">
+  @if(banner) {
+    @if(banner.type == 'text') {
+      <div class="content-text">
+        <p>{{banner.content}}</p>
+      </div>
+    }
+    @if(banner.type == 'image') {
+      <div class="content-img">
+        <img [src]="banner.content">
+      </div>
+    }
+  } @else {
+    <div class="content-text">
+      <p>Banner</p>
+    </div>
+  }
+  
+</div>
